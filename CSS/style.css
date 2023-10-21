@@ -88,3 +88,17 @@ footer {
 	background: #222;
 	color: #d3d4d6;
 }
+
+.socials {
+	list-style-type: none;
+	padding: 0;
+}
+
+.socials li {
+	display: inline-block;
+}
+
+.socials img {
+	width: 32px;
+}
+
