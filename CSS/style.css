@@ -67,11 +67,17 @@ footer a:hover {
 .home {
 	background: url(../img/bg-home-office-city.jpg) no-repeat;
 	background-size: cover;
+	display: flex;
+	flex-direction: column;
 }
 
 .home .content-wrapper {
+	flex: 1 0 auto;
+}
+
+.content-bg {
 	background: rgb(255 255 255 / 0.9);
-	margin-top: 10px;
+	padding: 30px;
 }
 
 /* RESUME
@@ -98,6 +104,14 @@ footer a:hover {
 	left: 8px;
 }
 
+.resume main {
+	font-size: 19px;
+}
+
+.resume main p {
+	font-family: Candara, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+}
 /* Profile
 -------------------------------------------------*/
 
@@ -118,6 +132,11 @@ footer a:hover {
 
 /* Work Experience
 -------------------------------------------------*/
+.work-item {
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	column-gap: 20px;
+}
 
 
 /* Education
@@ -129,22 +148,30 @@ footer a:hover {
 footer {
 	background: #222;
 	color: #d3d4d6;
-	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+footer p {
+	padding: 8px 0;
 }
 
 .socials {
 	list-style-type: none;
 	padding: 0;
-	display: flex;
-	justify-content: center;
-	gap: 12px;
 }
 
 .socials li {
 	display: inline-block;
+	margin-left: 10px;
 }
 
 .socials img {
 	width: 32px;
+}
+
+.socials img:hover {
+	opacity: 0.5;
 }
 
