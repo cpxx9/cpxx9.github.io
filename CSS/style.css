@@ -135,6 +135,10 @@ footer a:hover {
 	column-gap: 20px;
 }
 
+.work-par {
+	font-weight: bolder;
+	font-size: 17px;
+}
 
 /* Education
 -------------------------------------------------*/
