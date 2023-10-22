@@ -31,6 +31,15 @@ body{
 	margin: 0;
 }
 
+h1, h2, h3 {
+
+}
+
+p {
+	font-family: Candara, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
 /* links */
 a {
 	color: #3c8453;
@@ -104,14 +113,6 @@ footer a:hover {
 	left: 8px;
 }
 
-.resume main {
-	font-size: 19px;
-}
-
-.resume main p {
-	font-family: Candara, Arial, Helvetica, sans-serif;
-	font-size: 17px;
-}
 /* Profile
 -------------------------------------------------*/
 
