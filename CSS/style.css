@@ -18,6 +18,10 @@ html {
 	box-sizing: inherit;
 }
 
+html, body {
+	height: 100%;
+}
+
 body{
 	background: #f4f4f4;
 	color: #555;
@@ -49,6 +53,13 @@ footer a:hover {
 	background: #3c8453;
 	color: #f4f4f4;
 	text-decoration: none;
+	padding: 3px 10px;
+}
+
+.content-wrapper {
+	margin: 0 auto;
+	max-width: 1080px;
+	padding: 35px;
 }
 
 /* HOME
@@ -60,11 +71,32 @@ footer a:hover {
 
 .home .content-wrapper {
 	background: rgb(255 255 255 / 0.9);
+	margin-top: 10px;
 }
 
 /* RESUME
 -------------------------------------------------*/
+.resume header::before {
+	background: url(../img/bg-home-office-city.jpg) center;
+	background-size: cover;
+	content: "";
+	display: block;
+	height: 390px;
+}
 
+.resume-section {
+	margin-bottom: 50px;
+}
+
+.resume-section h2 {
+	border-bottom: 2px dashed #d3d4d6;
+}
+
+.download-link {
+	position: fixed;
+	top: 8px;
+	left: 8px;
+}
 
 /* Profile
 -------------------------------------------------*/
@@ -72,6 +104,16 @@ footer a:hover {
 
 /* Projects
 -------------------------------------------------*/
+.project-item {
+	display: flow-root;
+	margin: 30px 0;
+}
+
+.project-item img {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
 
 
 /* Work Experience
@@ -87,11 +129,15 @@ footer a:hover {
 footer {
 	background: #222;
 	color: #d3d4d6;
+	text-align: center;
 }
 
 .socials {
 	list-style-type: none;
 	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 12px;
 }
 
 .socials li {
