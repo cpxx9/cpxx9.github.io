@@ -133,6 +133,7 @@ footer a:hover {
 	position: fixed;
 	top: 8px;
 	left: 8px;
+	font-size: 1.5rem;
 }
 
 /* Profile
@@ -159,15 +160,29 @@ footer a:hover {
 	display: grid;
 	grid-template-columns: 300px 1fr;
 	column-gap: 20px;
+	margin-bottom: 8px;
 }
 
 .work-par {
 	font-weight: bolder;
 }
 
+.work-details p{
+	margin: 0;
+}
+
+.work-summary p:first-child{
+	margin-top: 0;
+}
 /* Education
 -------------------------------------------------*/
+.education-item h3 {
+	margin-top: 8px;
+}
 
+.education-item p {
+	margin: 0;
+}
 
 /* FOOTER
 -------------------------------------------------*/
