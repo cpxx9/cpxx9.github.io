@@ -12,6 +12,7 @@ off-white #f4f4f4
 -------------------------------------------------*/
 html {
 	box-sizing: border-box;
+	font-size: 62.5%;
 }
 
 *, *:before, *::after {
@@ -26,7 +27,7 @@ body{
 	background: #f4f4f4;
 	color: #555;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 1.5rem;
 	line-height: 1.6em;
 	margin: 0;
 }
@@ -34,6 +35,23 @@ body{
 p {
 	font-family: Candara, Arial, Helvetica, sans-serif;
 	font-size: 16px;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 6rem;
+	line-height: 1.15;
+}
+
+h2 {
+	font-size: 3.1rem;
+}
+
+h3 {
+	font-size: 2rem;
 }
 
 /* links */
@@ -99,8 +117,9 @@ footer a:hover {
 	margin-bottom: 50px;
 }
 
-.resume-section h2 {
+.resume-header {
 	border-bottom: 2px dashed #d3d4d6;
+	padding-bottom: 12px;
 }
 
 .download-link {
@@ -137,7 +156,6 @@ footer a:hover {
 
 .work-par {
 	font-weight: bolder;
-	font-size: 17px;
 }
 
 /* Education
