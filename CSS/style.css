@@ -273,12 +273,26 @@ header ul a{
 /* VIDEOS
 -------------------------------------------------*/
 .video-wrapper {
-  padding: 2vh 2vh;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
+}
+
+.video-card {
+  background-color: #fff;
+  padding: 25px 15px;
+  border-radius: 4px;
+  width: 350px;
+}
+
+.video-card a {
+  text-decoration: none;
 }
 
 /* FOOTER
