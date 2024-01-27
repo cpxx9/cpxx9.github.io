@@ -272,6 +272,15 @@ header ul a{
 
 /* VIDEOS
 -------------------------------------------------*/
+body.videos {
+  display: flex;
+	flex-direction: column;
+}
+
+.videos-wrapper {
+  flex: 1;
+}
+
 .video-card {
   background-color: #fff;
   padding: 25px 15px;
