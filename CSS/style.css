@@ -99,6 +99,41 @@ footer a:hover {
 	padding: 35px;
 }
 
+/* HEADER
+-------------------------------------------------*/
+.main-header {
+  background: #222;
+	padding: 0 20px;
+}
+
+.main-header ul {
+  display: flex;
+  gap: 16px;
+  padding: 15px;
+  margin: 0;
+  align-items: baseline;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul a{
+  text-decoration: none;
+	color: #d3d4d6;
+}
+
+header ul h3 {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: 100;
+}
+
+.home-h3 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
 /* HOME
 -------------------------------------------------*/
 .home {
@@ -129,7 +164,7 @@ footer a:hover {
 
 /* RESUME
 -------------------------------------------------*/
-.resume header::before {
+.resume .content-header::before {
 	background: url(../img/bg-home-office-city.jpg) center;
 	background-size: cover;
 	content: "";
@@ -149,13 +184,14 @@ footer a:hover {
 .download-link {
 	position: fixed;
 	top: 8px;
-	left: 8px;
+	right: 8px;
 	font-size: 1.5rem;
 }
 
 @media screen and (max-width: 1200px) {
 	.download-link {
 		position: absolute;
+    top: 60px;
 	}
 }
 
@@ -248,6 +284,37 @@ footer a:hover {
 
 .education-item p {
 	margin: 0;
+}
+
+/* VIDEOS
+-------------------------------------------------*/
+body.videos {
+  display: flex;
+	flex-direction: column;
+}
+
+.videos-wrapper {
+  flex: 1;
+  display: grid;
+  padding: 40px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.video-card {
+  background-color: #fff;
+  padding: 25px 15px;
+  border-radius: 4px;
+  width: 300px;
+  height: 350px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.video-card a {
+  text-decoration: none;
+}
+
+.video-card img {
+  max-width: 270px;
 }
 
 /* FOOTER
