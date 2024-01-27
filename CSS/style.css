@@ -191,6 +191,7 @@ header ul h3 {
 @media screen and (max-width: 1200px) {
 	.download-link {
 		position: absolute;
+    top: 60px;
 	}
 }
 
@@ -294,18 +295,26 @@ body.videos {
 
 .videos-wrapper {
   flex: 1;
+  display: grid;
+  padding: 40px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .video-card {
   background-color: #fff;
   padding: 25px 15px;
   border-radius: 4px;
-  width: 350px;
+  width: 300px;
+  height: 350px;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .video-card a {
   text-decoration: none;
+}
+
+.video-card img {
+  max-width: 270px;
 }
 
 /* FOOTER
