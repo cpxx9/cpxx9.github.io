@@ -99,6 +99,26 @@ footer a:hover {
 	padding: 35px;
 }
 
+/* HEADER
+-------------------------------------------------*/
+.main-header {
+  background: #222;
+	padding: 0 20px;
+}
+
+.main-header ul {
+  display: flex;
+  gap: 16px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul a{
+  text-decoration: none;
+	color: #d3d4d6;
+}
 /* HOME
 -------------------------------------------------*/
 .home {
