@@ -353,6 +353,14 @@ body.videos {
   .video-card img {
     max-width: 300px;
   }
+
+  .video-card h3 {
+    font-size: 2.7rem;
+  }
+
+  .video-card p {
+    font-size: 2rem;
+  }
 }
 
 /* FOOTER
