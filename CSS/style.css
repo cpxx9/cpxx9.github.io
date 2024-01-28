@@ -198,8 +198,8 @@ header ul h3 {
 
 .download-link {
 	position: fixed;
-	top: 8px;
-	right: 8px;
+  top: 65px;
+  left: 32px;
 	font-size: 1.5rem;
 }
 
